@@ -464,7 +464,7 @@ class CellEnsemble:
             
             # Create group directory
             group_dir = os.path.join(condition_dir,group)
-            os.makedirs(group_dir)
+            os.makedirs(group_dir, exist_ok=True)
             #print('Parameterizing model from group : ' + group + '\n')
             cells = self.groups[self.groups == group].index
 

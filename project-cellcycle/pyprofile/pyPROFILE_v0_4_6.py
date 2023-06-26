@@ -321,10 +321,8 @@ def personalize_model(cell, cellname, model, dict_mut, dict_tr, dir, sample_coun
     for node in nodes:
         # Assign node mutation
         if node in dict_mut:
-            print("Node %s is in dict_mut for cellline %s" % (node, cellname))
             gene = dict_mut[node]
             if gene in cell['mutations'].keys():
-                print("Mutant in cellline %s : %s = %s" % (cellname, node, val_mut))
                 val_mut = cell['mutations'][gene]
                 personalized_model.mutate(node, val_mut)
         # Assign transition rates

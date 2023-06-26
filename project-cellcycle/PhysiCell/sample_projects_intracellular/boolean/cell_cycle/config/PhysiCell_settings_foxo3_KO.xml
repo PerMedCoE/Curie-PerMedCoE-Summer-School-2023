@@ -208,8 +208,6 @@
               <mutations>output_foxo3_knockout
                 <mutation intracellular_name="FoxO3">0.0</mutation>
               </mutations>
-              <mutations>
-              </mutations>
             </settings>
             <mapping>
               <output intracellular_name="S_entry" physicell_name="exit from cycle phase 0">

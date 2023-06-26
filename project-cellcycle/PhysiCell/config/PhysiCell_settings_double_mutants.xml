@@ -209,8 +209,6 @@
                 <mutation intracellular_name="PI3K_H">1.0</mutation>
                 <mutation intracellular_name="p110_H">1.0</mutation>
               </mutations>
-              <mutations>
-              </mutations>
             </settings>
             <mapping>
               <output intracellular_name="S_entry" physicell_name="exit from cycle phase 0">

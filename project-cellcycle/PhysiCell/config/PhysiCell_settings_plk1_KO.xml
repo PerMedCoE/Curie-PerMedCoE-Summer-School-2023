@@ -208,8 +208,6 @@
               <mutations>
                 <mutation intracellular_name="Plk1">0.0</mutation>
               </mutations>
-              <mutations>
-              </mutations>
             </settings>
             <mapping>
               <output intracellular_name="S_entry" physicell_name="exit from cycle phase 0">

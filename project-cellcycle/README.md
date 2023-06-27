@@ -36,7 +36,7 @@ python personalize_celllines.py [-h] -r RNASEQ -m MUTATIONS [-l CELL_LINES] -b B
 ```
 
 It uses a beta version of profile for python, developed by Saran Pankaew.
-We are providing the RNASEQ and MUTATIONS data in the data/CL folder. For RNA seq, the preprocessed file has to be used. 
+We are providing the RNASEQ and MUTATIONS data in the data/CL folder. For RNA seq, the preprocessed file has to be used. Various cell line files are provided, for different types of cancer (breast, pancreast, small cells lung cancer). You can create your own using the cell line information in model_list_20200115.csv.
 
 
 ### Configuring a PhysiBoSS model
